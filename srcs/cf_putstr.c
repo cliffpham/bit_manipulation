@@ -1,8 +1,6 @@
-#includes "../includes/cp.h"
+#include "../includes/cp.h"
 
-void	cp_putchar(char c);
-
-void	cf_putstr(char *str);
+void	cf_putstr(char *str)
 {
 	int i;
 

@@ -13,3 +13,5 @@ char	reverse_bits(unsigned char byte);
 char	swap_bits(unsigned char byte);
 int	is_power(int num);
 void	cf_putstr(char *str);
+void	cf_last_word(char *str);
+int	cf_strlen(char *str);
