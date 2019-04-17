@@ -15,3 +15,4 @@ int	is_power(int num);
 void	cf_putstr(char *str);
 void	cf_last_word(char *str);
 int	cf_strlen(char *str);
+void	cf_union(char *str1, char *str2);
