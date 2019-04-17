@@ -12,3 +12,4 @@ void	print_byte(unsigned char byte);
 char	reverse_bits(unsigned char byte);
 char	swap_bits(unsigned char byte);
 int	is_power(int num);
+void	cf_putstr(char *str);
