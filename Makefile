@@ -1,6 +1,6 @@
 CC = gcc
 FLAGS = -Wall -Wextra -Werror
-NAME = bits
+NAME = jungle_raton_laveur
 SRC = srcs/*.c main.c
 INCLUDES = includes/*.h
 
