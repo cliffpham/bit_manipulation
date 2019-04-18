@@ -16,4 +16,6 @@ void	cf_putstr(char *str);
 void	cf_last_word(char *str);
 int	cf_strlen(char *str);
 void	cf_union(char *str1, char *str2);
+int	cp_switch(int c);
 int	cp_atoi_base(char *str, int base);
+void	cs_convert_base(int base_10_num, int base);
