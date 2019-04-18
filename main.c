@@ -2,12 +2,10 @@
 
 int	main(int argc, char **argv)
 {
-	int arg_one;
-	if(argc < 2)
-		printf("Not enough arguments");
-	arg_one = cp_atoi(argv[1]);
-	print_byte(arg_one);
-	print_byte(reverse_bits(arg_one));
-	printf("%d\n", is_power(arg_one));
+	if (argc != 3)
+		printf("invalid parameters");
+	char *arg1 = argv[1];
+	int  arg2 = cp_atoi(argv[2]);
+	printf("%d \n", cp_atoi_base(arg1, arg2));
 	return (0);
 }
