@@ -1,8 +1,8 @@
-CC = gcc
+C= gcc
 FLAGS = -Wall -Wextra -Werror
-NAME = bits
+NAME = cp
 SRC = srcs/*.c main.c
-INCLUDES = includes/*.h
+INCLUDES = includes/stack.h
 
 all: $(NAME)
 
