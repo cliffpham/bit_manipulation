@@ -1,8 +1,7 @@
-C= gcc
+C = gcc
 FLAGS = -Wall -Wextra -Werror
-<<<<<<< HEAD
 NAME = cp
-SRC = srcs/*.c main.c
+SRC = srcs/stack.c srcs/infix_to_postfix.c main.c
 INCLUDES = includes/stack.h
 
 all: $(NAME)
